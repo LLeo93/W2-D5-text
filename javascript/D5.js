@@ -69,10 +69,32 @@ console.log('Esercizio5', cars);
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
 */
-/*let price = { iva: 23, noiva: 0 };
-cars.splice(cars.length, 0, price);
-console.log('Esercizio6', cars);*/
 
+cars.push({
+  brand: 'Fiat',
+  model: 'panda',
+  color: 'white',
+  trims: ['pop', 'lounge', 'sport'],
+});
+
+cars.forEach((car) => {
+  car.trims.pop();
+});
+console.log('esercizio6', cars);
+
+const car5 = {
+  brand: 'Mercedes',
+  color: 'white',
+  model: 'classeA',
+  trims: ['sedan', 'sport'],
+};
+
+/*cars.push(car5);
+for (let i = o; i < cars.length; i++) {
+  cars[i].trims.pop();
+}
+console.log('esercizio6', cars);
+*/
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
@@ -89,6 +111,9 @@ console.log('Esercizio7', justTrims);
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
     "color" ha valore "b", mostra in console "Fizz". Altrimenti, mostra in console "Buzz".
 */
+cars.forEach((car) => {
+  console.log('esercizio8', car.color.charAt(0) === 'b' ? 'Fizz' : 'Buzz');
+});
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
@@ -112,3 +137,73 @@ while (y === 32) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd'];
+const positionsArray = [];
+for (const char of charactersArray) {
+  let position;
+  switch (char) {
+    case 'a':
+      position = 1;
+      break;
+    case 'b':
+      position = 2;
+      break;
+    case 'c':
+      position = 3;
+      break;
+    case 'd':
+      position = 4;
+      break;
+    case 'e':
+      position = 5;
+      break;
+    case 'f':
+      position = 6;
+      break;
+    case 'g':
+      position = 7;
+      break;
+    case 'h':
+      position = 8;
+      break;
+    case 'i':
+      position = 9;
+      break;
+    case 'l':
+      position = 10;
+      break;
+    case 'm':
+      position = 11;
+      break;
+    case 'n':
+      position = 12;
+      break;
+    case 'o':
+      position = 13;
+      break;
+    case 'p':
+      position = 14;
+      break;
+    case 'q':
+      position = 15;
+      break;
+    case 'r':
+      position = 16;
+      break;
+    case 's':
+      position = 17;
+      break;
+    case 't':
+      position = 18;
+      break;
+    case 'v':
+      position = 20;
+      break;
+    case 'z':
+      position = 21;
+      break;
+    default:
+      position = 0;
+  }
+  positionsArray.push(position);
+}
+console.log('esercizio10', positionsArray);
