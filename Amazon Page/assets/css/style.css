@@ -1,1 +1,139 @@
 /* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e9edee;
+}
+main {
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.divHeader {
+  background-color: #222f3f;
+  height: 70px;
+}
+.logo {
+  width: 150px;
+  margin: 0.5em;
+  margin-left: 1.5em;
+  text-align: start;
+  cursor: pointer;
+}
+
+.backgroundbutton {
+  background-color: #364759;
+  height: 20px;
+  width: 100%;
+  text-align: start;
+  cursor: pointer;
+}
+.buttons {
+  background-color: #364759;
+  border: none;
+  color: #f1fbfd;
+  margin: 0.2em;
+  cursor: pointer;
+}
+.imgbacktitolo {
+  background-image: url(../images/bg-image.png);
+  background-repeat: repeat;
+  height: 210px;
+  width: 90.8%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+}
+.orange {
+  text-align: center;
+  background-color: #f56600;
+  color: white;
+  height: 1.8em;
+  padding-top: 1.5em;
+  padding-bottom: 0.8em;
+  margin: 2em;
+  margin-left: 3.8em;
+  margin-right: 4em;
+}
+h3 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  color: white;
+  font-size: 32px;
+}
+.span1 {
+  color: white;
+}
+.box1 {
+  display: inline-block;
+  background-color: white;
+}
+.text1 {
+  text-align: start;
+
+  margin-top: 1.5em;
+  margin-bottom: -1em;
+  margin-left: 2em;
+}
+.nonunderline {
+  cursor: pointer;
+  text-decoration: none;
+  color: #075969;
+}
+.cards1 {
+  display: inline;
+  border-radius: 1%;
+}
+.imgcards1 {
+  height: 250px;
+  width: 250px;
+  margin: 2em;
+  border-radius: 4%;
+  box-shadow: 100% 100% 5, #e9edee;
+}
+.boxcuffie {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.immaginecuffie {
+  width: 90.8%;
+}
+.boxcuffie {
+  margin-top: 0.2em;
+}
+.nonunderline2 {
+  text-decoration: none;
+  color: #075969;
+  cursor: pointer;
+  margin-left: 1.1em;
+}
+.immagineaudio {
+  width: 90.8%;
+}
+.divfooter {
+  background-color: #364759;
+  text-align: center;
+  height: 25px;
+  width: 100%;
+  padding-top: 0.6em;
+}
+#afooter {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+  font-size: 15px;
+}
+.finalbackground {
+  background-color: #222f3f;
+  text-align: center;
+  height: 150px;
+}
+.logo2 {
+  margin-top: 2.5em;
+  width: 200px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}

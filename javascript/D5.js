@@ -96,7 +96,7 @@ console.log('Esercizio7', justTrims);
 const numericArray = [
   6, 90, 45, 75, 84, 98, 35, 74, 31, 2, 8, 23, 100, 32, 66, 313, 321, 105,
 ];
-let x = 0;
+/*let x = 0;
 let y;
 while (y === 32) {
   console.log('esercizio9', y);
@@ -104,7 +104,7 @@ while (y === 32) {
   y = numericArray[x];
 
   console.log('esercizio9', y);
-}
+}*/
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
